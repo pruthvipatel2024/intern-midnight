@@ -1,0 +1,13 @@
+#box{
+    /* color:whitesmoke; */
+    background-color: rgb(240, 151, 151);
+}
+
+h1, h2, h3{
+    color:blue;
+}
+
+button{
+    background-color: green;
+    color:wheat;
+}
