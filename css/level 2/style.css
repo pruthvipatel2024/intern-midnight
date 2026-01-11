@@ -1,0 +1,39 @@
+#div{
+    height: 80px;
+    width: 100px;
+    border: 1px;
+    border-style: dotted;
+    border-radius: 25%;
+    background-color: aqua;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 30px;
+    margin: 10px 30px 10px 400px;
+    border-color: blue;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+button{
+
+    background-color: thistle;
+    margin-bottom: 10px;
+}
+
+h1{
+    background-color: antiquewhite;
+    align-items: center;
+    height: auto;
+    margin: auto;
+}
+
+.inline{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: beige;
+    margin: 30px 10px 10px 10px ;
+    padding: 10px;
+    align-items: center;
+    border-radius: 25%;
+}
