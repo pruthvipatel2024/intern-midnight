@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 2px dotted brown;
+    display: inline-block;
+    display: inline-block;
+}
+
+#box-1{
+    position: static;
+    background-image: url("car-1.jpg");
+    /* height: 500px; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+#box-2{
+    position: relative;
+    /* top: 20px; */
+}
+
+
+
+    /* font-size: 3em; 3em=3x of parents measurements */

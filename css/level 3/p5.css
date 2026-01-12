@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("car-1.jpg");
+    background-size: cover;
+    color: yellow;
+    border-radius: 20%;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 50px;
+}
