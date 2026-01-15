@@ -1,0 +1,55 @@
+/* container styling */
+
+.container{
+    height: 900px;
+    width: auto;
+    background-color: rgb(112, 100, 86); ;
+    background-image: url(cover-1.jpg);
+    background-size: cover;
+}
+
+
+/* navbar styling */
+
+.header{
+    height:75px;
+    width: 1600px;
+    background-color: rgb(112, 100, 86);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+span>img{
+    height: 100px;
+    width: 150px;
+    margin-top: 100px;
+    position: relative;
+    left: -20px;
+}
+
+.link{
+   position: relative;
+   right: 130px;
+}
+
+span>a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+/* About page styling  */
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+.a-image{
+    height: 500px;
+    width: 500px;
+}
+
