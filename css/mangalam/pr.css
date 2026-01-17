@@ -76,7 +76,6 @@ big{
 
 .salient{
     background-color:rgb(112, 100, 86);
-    height: 600px;
     color: white;
     text-align: center;
     padding: 60px 250px 60px 250px ;
@@ -84,6 +83,23 @@ big{
 
 .salient>p{
     padding-top: 20px;
+}
+
+.sal-gr{
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sal-gr>span>span{
+    font-size: 40px;
+}
+
+.sal-gr>span>span>p{
+    font-size: medium;
 }
 
 
@@ -111,7 +127,6 @@ big{
     margin-top: 100px;
     
 }
-
 .f-gr{
     display: flex;
     justify-content: space-between;
