@@ -1,0 +1,18 @@
+h1 {
+    background-color: chocolate;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: brown;
+    margin: 0px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px;
+}
