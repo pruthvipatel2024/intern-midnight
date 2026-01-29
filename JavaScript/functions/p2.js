@@ -1,27 +1,7 @@
-let str = prompt("Enter a String:");
+let nums = [2, 3, 4, 5, 6];
 
-function vovel(str) {
-    let count = 0;
-    for (const char of str) {
-        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
-            count++;
-        }   
-    }
-    return count;
+let calsquare = (num) => {
+    console.log(num * num);
 }
 
-let vovels = vovel(str);
-
-console.log(vovels);
-
-
-
-const cntvow = (str) => {
-    let count = 0;
-    for (const char of str) {
-        if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
-            count++;
-        }   
-    }
-    return count;
-}
+nums.forEach(calsquare);
