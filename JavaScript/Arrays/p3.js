@@ -1,0 +1,11 @@
+let companies = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix'];
+
+companies.shift();
+
+companies.splice(1, 1, 'Ola');
+
+companies.push('Amazon');
+
+for (let company of companies) {
+    console.log(company);
+}
