@@ -15,8 +15,8 @@ console.log(div[2]);
 // div[2].innerText = "Unique value 3";
 
 let idx = 1;
-    
+
 for (let d of div) {
     d.innerText = "value " + idx;
     idx++;
-}
+} 
