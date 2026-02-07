@@ -32,6 +32,7 @@ boxes.forEach((box) => {
         }
 
         else {
+            box.style.color = "blue";
             box.innerText = "X";
             pO = true;
         }
